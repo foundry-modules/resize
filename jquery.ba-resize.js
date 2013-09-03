@@ -46,8 +46,6 @@
 //       to $.data to improve performance.
 // 1.0 - (2/10/2010) Initial release
 
-(function($,window,undefined){
-  '$:nomunge'; // Used by YUI compressor.
   
   // A jQuery object containing all non-window elements to which the resize
   // event is bound.
@@ -243,4 +241,4 @@
     
   };
   
-})(jQuery,this);
+
